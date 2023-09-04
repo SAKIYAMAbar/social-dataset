@@ -1,3 +1,3 @@
 # snap
-I have eliminated the sparsity of the real-world data used in SNAP.
-By eliminating sparsity, the efficiency of analysis improves.
+txt file after removing sparsity in snap's large network.
+Program that reads original data and streamlines network analysis by eliminating sparsity.
