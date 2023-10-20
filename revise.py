@@ -1,7 +1,7 @@
 import pandas as pd
 
 #Loading Data
-df = pd.read_csv('soc-flickr.txt', sep='\s+', header=None, names=['node1', 'node2'])#'\s+'
+df = pd.read_csv('ca-HepPh(1).txt', sep='\s+', header=None, names=['node1', 'node2'])#'\s+'
 
 #Get all unique nodes
 unique_nodes = pd.unique(df[['node1', 'node2']].values.ravel('K'))
@@ -23,4 +23,4 @@ df = df.drop(columns=['min_node', 'max_node'])
 print(df)
 
 ## Write DataFrame to text file (without index and header)
-df.to_csv('flickr.txt', sep='\t', header=False, index=False)
+df.to_csv('ca-HepPh_revise.txt', sep='\t', header=False, index=False)
