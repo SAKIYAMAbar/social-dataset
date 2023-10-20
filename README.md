@@ -1,3 +1,5 @@
-# snap
-txt file after removing sparsity in snap's large network.
-Program that reads original data and streamlines network analysis by eliminating sparsity.
+#socialdataset.txt
+txt files after organizing the node numbers in the -undirected social data set.
+
+#revise.py
+program that reads the original data and organizes the node numbers to make network analysis more efficient.
