@@ -1,4 +1,8 @@
-**socialdataset.txt**
+**ca-HepPh(1).txt**
+txt file before organizing node numbers.
+
+
+**Other social dataset files (.txt)**
 
 txt files after organizing the node numbers in the -undirected social data set.
 
